@@ -1,0 +1,24 @@
+{
+  "name": "givv-app-mean",
+  "version": "1.0.0",
+  "description": "Mean Stack Givv App",
+  "main": "app.js",
+  "dependencies": {
+    "mongodb": "^2.2.33",
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "author": "Daniel Ferolino",
+  "license": "ISC"
+}
